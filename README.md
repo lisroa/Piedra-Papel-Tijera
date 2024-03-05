@@ -14,7 +14,7 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://pokeguesser.netlify.app" target="_blank">Demo: https://pokeguesser.netlify.app</a>
+/* <p align="center">
+  <a href="=" target="_blank">Demo:</a>
 </p>
 
