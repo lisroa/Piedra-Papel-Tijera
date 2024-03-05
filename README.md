@@ -1,6 +1,5 @@
 <p align="center">El juego que todos conocemos Piedra, Papel o Tijera en version online</p>
 
-
 <div>
   
   <ul align="center">
@@ -14,7 +13,6 @@
   </a>
 </p>
 
-/* <p align="center">
+ <p align="center">
   <a href="=" target="_blank">Demo:</a>
 </p>
-

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function Peleadores({ src }) {
   return (
-    <div className="w-40 h-36">
+    <div>
       <button>
-        <Image src={src} width={80} height={40} />
+        <Image src={src} className="h-102 w-86" />
       </button>
     </div>
   );
