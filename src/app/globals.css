@@ -26,12 +26,13 @@ body,
 }
 
 .App {
-  background: url("../assets/background.png") no-repeat center center fixed;
+  background: url("/assets/background.png") no-repeat center center fixed;
 
   -o-background-size: cover;
   background-size: cover;
 }
 
-h1 {
+h1,
+h3 {
   font-family: "Retro Gaming";
 }
