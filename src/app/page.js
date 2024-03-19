@@ -58,6 +58,7 @@ export default function Home() {
     setFighterUserName("");
     setResult("");
     setShowPlayAgain(false);
+    setButtonsDisabled(false);
   };
 
   return (
@@ -136,23 +137,25 @@ export default function Home() {
         </div>
       </div>
 
-      {showPlayAgain && (
-        <>
-          <div className="w-80 h-20 border-4 border-white border-dashed rounded text-center items-center p-2 mt-10">
-            <h1 className="text-center text-2xl p-4 text-white">{result}</h1>
-          </div>
-          <div className="mt-16">
-            <Animation>
-              <button
-                className="border-4 border-white border-dashed rounded text-center items-center p-2"
-                onClick={() => playAgain()}
-              >
-                <h3 className="text-white">Play Again</h3>
-              </button>
-            </Animation>
-          </div>
-        </>
-      )}
+      <div className="h-80 flex flex-col justify-center items-center">
+        {showPlayAgain && (
+          <>
+            <div className="w-80 h-20 border-4 border-white border-dashed rounded text-center items-center p-2 mt-10">
+              <h1 className="text-center text-2xl p-4 text-white">{result}</h1>
+            </div>
+            <div className="mt-16">
+              <Animation>
+                <button
+                  className="border-4 border-white border-dashed rounded text-center items-center p-2"
+                  onClick={() => playAgain()}
+                >
+                  <h3 className="text-white">Play Again</h3>
+                </button>
+              </Animation>
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }
