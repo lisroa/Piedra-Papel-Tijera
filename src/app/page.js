@@ -149,7 +149,7 @@ export default function Home() {
                   className="border-4 border-white border-dashed rounded text-center items-center p-2"
                   onClick={() => playAgain()}
                 >
-                  <h3 className="text-white">Play Again</h3>
+                  <h3 className="text-white">Volver a jugar</h3>
                 </button>
               </Animation>
             </div>
